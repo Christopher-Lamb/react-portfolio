@@ -3,6 +3,7 @@ import React from "react";
 import { Col, Row, Container } from "react-bootstrap";
 import NavBar from "../../components/NavBar";
 import Card from "../../components/Card";
+import ButtonLink from "../../components/ButtonLink";
 
 function Home() {
   //Display
@@ -20,6 +21,8 @@ function Home() {
               and problem solving. If you are a business seeking an online
               precense or a employeer looking to hire you can contact me here.
             </p>
+            <ButtonLink href={"resume"}>Need a Website</ButtonLink>
+            <ButtonLink href={"contact"}>Looking to Hire</ButtonLink>
           </Card>
         </Row>
       </Container>
