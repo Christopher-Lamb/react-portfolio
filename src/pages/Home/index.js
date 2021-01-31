@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Col, Row, Container } from "react-bootstrap";
+import { Row, Container } from "react-bootstrap";
 import NavBar from "../../components/NavBar";
 import Card from "../../components/Card";
 import ButtonLink from "../../components/ButtonLink";
@@ -12,7 +12,7 @@ function Home() {
       <NavBar></NavBar>
       <Container>
         <Row>
-          <Card width={"100px"} height={"1000px"}>
+          <Card width={200} heightPx={400} marginTopPx={20}>
             <image src="#" alt="Cover Image" />
             <h1>Full Stack Web Development</h1>
             <p>
