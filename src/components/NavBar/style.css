@@ -1,0 +1,18 @@
+nav {
+  height: 80px;
+}
+
+.brand-div {
+  position: relative;
+}
+
+.brand-top {
+  position: relative;
+  top: 20px;
+}
+.brand-bottom {
+  position: relative;
+  top: 0px;
+  text-align: center;
+  font-size: 16px;
+}

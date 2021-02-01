@@ -2,10 +2,7 @@ import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import NavBar from "../../components/NavBar";
 import Card from "../../components/Card";
-
-const marginTopPx = 20;
-const heightPx = 200;
-const widthPercent = 100;
+import "./style.css";
 
 function Contact() {
   return (
@@ -14,51 +11,21 @@ function Contact() {
       <Container>
         <Row>
           <Col lg={4}>
-            <Card
-              marginTopPx={marginTopPx}
-              heightPx={heightPx}
-              width={widthPercent}
-            >
-              Linkedin
-            </Card>
+            <Card className={"cards-contact"}>Linkedin</Card>
           </Col>
           <Col lg={4}>
-            <Card
-              marginTopPx={marginTopPx}
-              heightPx={heightPx}
-              width={widthPercent}
-            >
-              Resume
-            </Card>
+            <Card className={"cards-contact"}>Resume</Card>
           </Col>
           <Col lg={4}>
-            <Card
-              marginTopPx={marginTopPx}
-              heightPx={heightPx}
-              width={widthPercent}
-            >
-              Email
-            </Card>
+            <Card className={"cards-contact"}>Email</Card>
           </Col>
         </Row>
         <Row>
           <Col lg={{ span: 4, offset: 2 }}>
-            <Card
-              marginTopPx={marginTopPx}
-              heightPx={heightPx}
-              width={widthPercent}
-            >
-              GitHub
-            </Card>
+            <Card className={"cards-contact"}>GitHub</Card>
           </Col>
           <Col lg={4}>
-            <Card
-              marginTopPx={marginTopPx}
-              heightPx={heightPx}
-              width={widthPercent}
-            >
-              Instagram
-            </Card>
+            <Card className={"cards-contact"}>Instagram</Card>
           </Col>
         </Row>
       </Container>
