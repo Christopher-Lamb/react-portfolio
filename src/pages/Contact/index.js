@@ -11,21 +11,41 @@ function Contact() {
       <Container>
         <Row>
           <Col lg={4}>
-            <Card className={"cards-contact"}>Linkedin</Card>
+            <Card
+              className={"cards-contact shadow-lg p-3 mb-5 bg-white rounded"}
+            >
+              Linkedin
+            </Card>
           </Col>
           <Col lg={4}>
-            <Card className={"cards-contact"}>Resume</Card>
+            <Card
+              className={"cards-contact shadow-lg p-3 mb-5 bg-white rounded"}
+            >
+              Resume
+            </Card>
           </Col>
           <Col lg={4}>
-            <Card className={"cards-contact"}>Email</Card>
+            <Card
+              className={"cards-contact shadow-lg p-3 mb-5 bg-white rounded"}
+            >
+              Email
+            </Card>
           </Col>
         </Row>
         <Row>
           <Col lg={{ span: 4, offset: 2 }}>
-            <Card className={"cards-contact"}>GitHub</Card>
+            <Card
+              className={"cards-contact shadow-lg p-3 mb-5 bg-white rounded"}
+            >
+              GitHub
+            </Card>
           </Col>
           <Col lg={4}>
-            <Card className={"cards-contact"}>Instagram</Card>
+            <Card
+              className={"cards-contact shadow-lg p-3 mb-5 bg-white rounded"}
+            >
+              Instagram
+            </Card>
           </Col>
         </Row>
       </Container>

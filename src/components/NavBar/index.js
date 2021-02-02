@@ -28,7 +28,7 @@ function NavBar() {
           </div>
         </a>
 
-        <Dropdown className="d-md-none d-xl-block">
+        <Dropdown className="d-md-none">
           <Dropdown.Toggle as={CustomToggle} id="dropdown-custom-components">
             <span class="navbar-toggler-icon"></span>
           </Dropdown.Toggle>
@@ -47,13 +47,13 @@ function NavBar() {
         <div className="collapse navbar-collapse">
           <div className="navbar-nav">
             <a className="nav-link active" ariaCurrent="page" href="/">
-              Home
+              <span className="links">Home</span>
             </a>
             <a className="nav-link active" href="/projects">
-              Projects
+              <span className="links">Projects</span>
             </a>
             <a className="nav-link active" href="/contact">
-              Contact
+              <span className="links">Contact</span>
             </a>
           </div>
         </div>

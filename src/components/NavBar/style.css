@@ -1,9 +1,19 @@
 nav {
   height: 80px;
+  color: white;
+  background: rgb(3, 31, 97);
+  background: linear-gradient(
+    37deg,
+    rgba(3, 31, 97, 1) 0%,
+    rgba(24, 24, 131, 1) 32%,
+    rgba(23, 76, 154, 1) 63%,
+    rgba(139, 151, 255, 1) 100%
+  );
 }
 
 .brand-div {
   position: relative;
+  color: white;
 }
 
 .brand-top {
@@ -15,4 +25,15 @@ nav {
   top: 0px;
   text-align: center;
   font-size: 16px;
+}
+
+.links {
+  color: white;
+}
+
+@media only screen and (max-width: 767px) {
+  .brand-div {
+    top: -16px;
+    left: 15px;
+  }
 }

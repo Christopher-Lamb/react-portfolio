@@ -2,8 +2,8 @@ import React from "react";
 
 function ButtonLink(props) {
   return (
-    <a href={`/${props.href}`}>
-      <button className={`btn-${props.href}`}>{props.children}</button>
+    <a href={`/${props.href}`} id={props.id}>
+      <button className={`${props.className}`}>{props.children}</button>
     </a>
   );
 }
