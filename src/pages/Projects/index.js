@@ -2,10 +2,7 @@ import React from "react";
 import NavBar from "../../components/NavBar";
 import Card from "../../components/Card";
 import { Col, Row, Container } from "react-bootstrap";
-
-const marginTopPx = 20;
-const heightPx = 200;
-const widthPercent = 100;
+import "./style.css";
 
 function Projects() {
   return (
@@ -15,29 +12,29 @@ function Projects() {
         <Row>
           <Col lg={4}>
             <Card
-              marginTopPx={marginTopPx}
-              heightPx={heightPx}
-              width={widthPercent}
+              className={"card-project shadow-lg p-3 mb-5 bg-white rounded"}
             >
-              Quakka Marketplace
+              <h3>Quakka Marketplace</h3>
+              <br />
+              <p>Image and link comin when files are updated</p>
             </Card>
           </Col>
           <Col lg={4}>
             <Card
-              marginTopPx={marginTopPx}
-              heightPx={heightPx}
-              width={widthPercent}
+              className={"card-project shadow-lg p-3 mb-5 bg-white rounded"}
             >
-              Covid Testing Locator
+              <h3>Covid Testing Locator</h3>
+              <br />
+              <p>Image and link comin when files are updated</p>
             </Card>
           </Col>
           <Col lg={4}>
             <Card
-              marginTopPx={marginTopPx}
-              heightPx={heightPx}
-              width={widthPercent}
+              className={"card-project shadow-lg p-3 mb-5 bg-white rounded"}
             >
-              Modern Solutiions
+              <h3>Modern Solutiions</h3>
+              <br />
+              <p>Image and link comin when files are updated</p>
             </Card>
           </Col>
         </Row>
